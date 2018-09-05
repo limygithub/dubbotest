@@ -9,6 +9,6 @@ public class TestServiceImpl implements TestService{
 
     @Override
     public String sayHello(String str) {
-        return "hello "+str;
+        return "hello 欢迎"+str;
     }
 }
