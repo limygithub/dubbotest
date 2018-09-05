@@ -9,7 +9,7 @@ public class TestServiceImpl implements TestService{
 
     @Override
     public String sayHello(String str) {
-        System.out.println("这是一个新分支");
+        System.out.println("这是一个新分支master");
         return "hello 欢迎"+str;
     }
 }
