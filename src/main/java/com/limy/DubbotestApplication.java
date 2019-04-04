@@ -7,6 +7,7 @@ import org.springframework.context.annotation.ImportResource;
 @SpringBootApplication
 @ImportResource(value = {"classpath:dubbo-providers.xml"})
 public class DubbotestApplication {
+	//测试
 
 	public static void main(String[] args) {
 		SpringApplication.run(DubbotestApplication.class, args);
